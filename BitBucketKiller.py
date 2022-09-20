@@ -12,10 +12,6 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 global HTTP_CONFIG
 HTTP_CONFIG = None
-HTTP_CONFIG = {
-	"http":"http://127.0.0.1:8081",
-	"https":"http://127.0.0.1:8081",
-}
 
 class EnumBucket:
 	def __init__(self, *args):
